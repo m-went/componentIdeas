@@ -1,0 +1,138 @@
+.companyInfoBlock__wrapper {
+  background-color: rgb(238 238 238);
+  margin-bottom: 3rem;
+}
+
+.companyInfoBlock {
+  display: flex;
+}
+
+.companyInfoBlock__contentWrapper {
+  flex: 1;
+}
+
+.companyInfoBlock__textContainer {
+  background-color: rgb(238 238 238);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.companyInfoBlock__textWrapper {
+  padding: 40px 32px;
+  padding-left: 55px;
+  height: 100%;
+  z-index: 2;
+  position: relative;
+}
+
+.companyInfoBlock__infoTitle {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.companyInfoBlock__infoDesc {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.companyInfoBlock__button {
+  background-color: #1a1a1a;
+  color: white;
+  min-width: 10rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  border-width: 0.0625rem;
+  border-radius: 0.125rem;
+  border-color: #1a1a1a;
+  font-size: 0.875rem;
+  min-height: 2.875rem;
+  cursor: pointer;
+  margin-bottom: 4px;
+  margin-top: 24px;
+  max-width: 180px;
+}
+
+.companyInfoBlock__imgContainer {
+  height: 0;
+  width: 100%;
+  padding-bottom: 58%;
+  position: relative;
+  flex: 1 1;
+  margin-right: calc((100vw - 960px) / -2);
+}
+
+.companyInfoBlock__img {
+  object-fit: cover;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: visible;
+  min-height: 550px;
+}
+
+@media (min-width: 1280px) {
+  .companyInfoBlock {
+    margin: 0 auto;
+    max-width: 76.25rem;
+  }
+}
+@media (max-width: 1279px) {
+  .companyInfoBlock {
+    margin: 0 auto;
+    max-width: 69.375rem;
+  }
+}
+@media (max-width: 1169px) {
+  .companyInfoBlock {
+    margin: 0 auto;
+    max-width: 60rem;
+  }
+}
+
+@media (max-width: 1023px) {
+  .companyInfoBlock {
+    margin: 0 auto;
+    max-width: 44rem;
+  }
+  .companyInfoBlock__infoDesc {
+    margin: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .companyInfoBlock {
+    max-width: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .companyInfoBlock__infoWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .companyInfoBlock__textWrapper {
+    padding: 32px 16px;
+  }
+  .companyInfoBlock__infoTitle {
+    margin-top: 0;
+  }
+  .companyInfoBlock__button {
+    max-width: 540px;
+  }
+}
+@media (max-width: 359px) {
+  .companyInfoBlock {
+    max-width: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+@media (max-width: 359px) {
+  .companyInfoBlock {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+}

@@ -1,0 +1,136 @@
+.companyInfoSqareBox {
+  background-color: white;
+  padding: 2rem 0;
+}
+
+.companyInfoSqareBox__infoWrapper {
+  display: flex;
+}
+
+.companyInfoSqareBox__infoTitle {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.companyInfoSqareBox__imgContainer {
+  height: 0;
+  width: 100%;
+  padding-bottom: 50%;
+  position: relative;
+  flex: 1;
+}
+
+.companyInfoSqareBox__contentWrapper {
+  flex: 1;
+}
+.companyInfoSqareBox__textContainer {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 32px;
+  padding-left: 55px;
+  height: 100%;
+}
+
+.companyInfoSqareBox__img {
+  object-fit: cover;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.companyInfoSqareBox__infoWrapper--rightImg {
+  transform: scaleX(-1);
+}
+
+.companyInfoSqareBox__textContainer--rightImg {
+  transform: scaleX(-1);
+}
+
+.companyInfoSqareBox__infoDesc {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.companyInfoSqareBox__button {
+  background-color: #1a1a1a;
+  color: white;
+  min-width: 10rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  border-width: 0.0625rem;
+  border-radius: 0.125rem;
+  border-color: #1a1a1a;
+  font-size: 0.875rem;
+  min-height: 2.875rem;
+  cursor: pointer;
+  margin-bottom: 4px;
+  margin-top: 24px;
+  max-width: 180px;
+}
+
+@media (min-width: 1280px) {
+  .companyInfoSqareBox {
+    margin: 0 auto;
+    max-width: 76.25rem;
+  }
+}
+@media (max-width: 1279px) {
+  .companyInfoSqareBox {
+    margin: 0 auto;
+    max-width: 69.375rem;
+  }
+}
+@media (max-width: 1169px) {
+  .companyInfoSqareBox {
+    margin: 0 auto;
+    max-width: 60rem;
+  }
+}
+
+@media (max-width: 1023px) {
+  .companyInfoSqareBox {
+    margin: 0 auto;
+    max-width: 44rem;
+  }
+  .companyInfoSqareBox__infoDesc {
+    margin: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .companyInfoSqareBox {
+    max-width: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .companyInfoSqareBox__infoWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .companyInfoSqareBox__textContainer {
+    padding: 32px 16px;
+  }
+  .companyInfoSqareBox__infoTitle {
+    margin-top: 0;
+  }
+  .companyInfoSqareBox__button {
+    max-width: 540px;
+  }
+}
+@media (max-width: 359px) {
+  .companyInfoSqareBox {
+    max-width: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+@media (max-width: 359px) {
+  .companyInfoSqareBox {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+}
